@@ -5,12 +5,16 @@ I used **RadASM** as an **IDE** and **MASM** to compile assembly code. Here we o
 
 You can find **RadASM** here: https://github.com/mrfearless/RadASM2
 
-Here is our **Simple Assembly Dialogue** program:
 
 
 <p align="center">
+ Here is our **Simple Assembly Dialogue** program:
+Our dialogue looks like this:
   <img src="https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/1.JPG" />
 </p>
-![Alt text](https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/1.JPG?raw=true "Layout of our dialogue")
 
-![Alt text](https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/2.JPG?raw=trueraw=true "Output of our test")
+<p align="center">
+And when we enter "test" to test our program, it outputs "uftu".
+  <img src="https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/2.JPG" />
+</p>
+
