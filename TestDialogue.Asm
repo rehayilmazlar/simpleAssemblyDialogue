@@ -9,7 +9,7 @@ include TestDialogue.inc ;include our include file which has all necessary libra
 start: ;our program starts here
 
 	invoke GetModuleHandle,NULL ;get a handle for our program
-	mov		hInstance,eax
+	mov hInstance,eax
 
     invoke InitCommonControls
 	invoke DialogBoxParam,hInstance,IDD_DIALOG1,NULL,addr DlgProc,NULL ;show the dialogue
@@ -19,7 +19,7 @@ start: ;our program starts here
 ;This is where our dialogue window is created.
 DlgProc proc hWin:HWND,uMsg:UINT,wParam:WPARAM,lParam:LPARAM
 
-	mov		eax,uMsg
+	mov eax,uMsg
 	.if eax==WM_INITDIALOG
 		invoke	 LoadIcon, hInstance, OUR_ICON ;load icon into program
 		invoke	 SendMessage, hWin, WM_SETICON, ICON_BIG, eax ;Also add the icon to the dialogue
@@ -33,10 +33,10 @@ DlgProc proc hWin:HWND,uMsg:UINT,wParam:WPARAM,lParam:LPARAM
 	.elseif eax==WM_CLOSE ;if close button is clicked, end the dialogue
 		invoke EndDialog,hWin,0
 	.else
-		mov		eax,FALSE
+		mov eax,FALSE
 		ret
 	.endif
-	mov		eax,TRUE
+	mov eax,TRUE
 	ret
 
 DlgProc endp
