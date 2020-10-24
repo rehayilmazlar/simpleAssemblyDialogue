@@ -3,7 +3,7 @@
 
 <p align="left">I used <strong>RadASM</strong> as an <strong>IDE</strong> and <strong>MASM</strong> to compile assembly code. Here we only need three files to create the rest of the files are created by RadASM automatically. Best thing about RadASM is you can create your dialogue visually and add buttons, text box to it etc.
 <br>
- <br>These 3 files we need to create are:
+ <br>Those 3 files we need to create are:
   <ul>
    <li>TestDialogue.asm <em>--Here is our main assembly code</em></li>
    <li>TestDialogue.dlg <em>--Here is the visual dialouge</em></li>
