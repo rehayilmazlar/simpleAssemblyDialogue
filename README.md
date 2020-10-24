@@ -9,6 +9,6 @@ Here is our **Simple Assembly Dialogue** program:
 
 
 
-![Alt text](Imageso/1.jpg?raw=true "Layout of our dialogue")
+![Alt text](https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/1.JPG?raw=true "Layout of our dialogue")
 
-![Alt text](Imageso/1.jpg?raw=true "Output of our test")
+![Alt text](https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/2.JPG?raw=trueraw=true "Output of our test")
