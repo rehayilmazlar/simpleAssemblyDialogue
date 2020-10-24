@@ -1,0 +1,2 @@
+#include "Res/TestDialogueDlg.rc"
+102      ICON    DISCARDABLE   "TestDialogue.ico"
