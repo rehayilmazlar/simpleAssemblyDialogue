@@ -1,4 +1,3 @@
-<div align="center">
  <h1>Simple Assembly Dialogue</h1>
 <h3>A simple assembly dialogue that takes a string and adds 1 to each character and outputs the result. For example "test" becomes "uftu".</h3>
 
@@ -7,7 +6,7 @@
 You can find <strong>RadASM</strong> here: https://github.com/mrfearless/RadASM2
 <p/>
 
-
+<div align="center">
 <p>
  Here is our <strong>Simple Assembly Dialogue</strong> program:<br><br>
 Originally our dialogue looks like this:<br>
