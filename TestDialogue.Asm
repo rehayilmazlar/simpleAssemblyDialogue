@@ -1,4 +1,4 @@
-.386
+.386 ;80386 processor instruction for 32-bit MASM
 .model flat, stdcall  ;32 bit memory model
 option casemap :none  ;case sensitive
 
