@@ -8,13 +8,13 @@ You can find **RadASM** here: https://github.com/mrfearless/RadASM2
 
 
 <p align="center">
- Here is our **Simple Assembly Dialogue** program:
-Our dialogue looks like this:
+ Here is our <strong>Simple Assembly Dialogue</strong> program:<br>
+Our dialogue looks like this:<br>
   <img src="https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/1.JPG" />
 </p>
 
 <p align="center">
-And when we enter "test" to test our program, it outputs "uftu".
+ And when we enter <strong>"test"</strong> to test our program, it outputs "uftu".<br>
   <img src="https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/2.JPG" />
 </p>
 
