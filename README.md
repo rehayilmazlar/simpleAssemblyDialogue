@@ -1,6 +1,6 @@
 <div align="center">
- <h1># Simple Assembly Dialogue</h1>
-<h3>A simple assembly dialogue that takes a string and adds 1 to each character and outputs the result. For example "test" becomes "uftu".<h/3>
+ <h1>Simple Assembly Dialogue</h1>
+<h3>A simple assembly dialogue that takes a string and adds 1 to each character and outputs the result. For example "test" becomes "uftu".</h3>
 
 <p>I used <strong>RadASM</strong> as an <strong>IDE</strong> and <strong>MASM</strong> to compile assembly code. Here we only need three files to create the rest of the files are created by RadASM automatically. Best thing about RadASM is you can create your dialogue visually and add buttons, text box to it etc.
 <br>
