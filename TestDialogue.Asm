@@ -11,7 +11,7 @@ start: ;our program starts here
 	invoke GetModuleHandle,NULL ;get a handle for our program
 	mov hInstance,eax
 
-    invoke InitCommonControls
+    	invoke InitCommonControls
 	invoke DialogBoxParam,hInstance,IDD_DIALOG1,NULL,addr DlgProc,NULL ;show the dialogue
 	invoke ExitProcess,0
 
