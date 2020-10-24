@@ -2,7 +2,7 @@
 .model flat, stdcall  ;32 bit memory model
 option casemap :none  ;case sensitive
 
-include TestDialogue.inc ;include our include file which has all necessary libraries for our program to run.
+include TestDialogue.inc ;includes our include file which has all necessary libraries for our program to run.
 
 .code
 
