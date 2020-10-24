@@ -15,7 +15,7 @@ Originally our dialogue looks like this:<br>
 </p>
 
 <p>
- And when we enter <strong>"test"</strong> to test our program, it outputs "uftu".<br>
+ And when we enter <strong>"test"</strong> to test our program, it outputs <strong>"uftu"</strong>.<br>
   <img src="https://github.com/rehayilmazlar/simpleAssemblyDialogue/blob/main/Images/2.JPG" />
 </p>
 </div>
