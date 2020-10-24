@@ -4,7 +4,7 @@ option casemap :none  ;case sensitive
 
 include TestDialogue.inc ;includes our include file which has all necessary libraries for our program to run.
 
-.code
+.code ;code section starts
 
 start: ;our program starts here
 
