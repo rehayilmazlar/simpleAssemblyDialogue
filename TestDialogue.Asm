@@ -40,7 +40,7 @@ DlgProc proc hWin:HWND,uMsg:UINT,wParam:WPARAM,lParam:LPARAM
 	ret
 
 DlgProc endp
-
+;########################################################################
 ;This is where our generate function runs.
 Generate PROC	USES ebx ecx edx esi edi, hWin:DWORD
 	invoke GetDlgItemText,hWin,1002,addr text, 255 ;get text out of component with id 1002 and write it into text variable
@@ -49,7 +49,7 @@ Generate PROC	USES ebx ecx edx esi edi, hWin:DWORD
 	xor ebx,ebx ; set ebx=0
 	xor edx, edx; set edx=0
 @loop:
-	movzx ebx, byte ptr ds:[eax + edx] ;move the first bye that eax holds to ebx
+	movzx ebx, byte ptr ds:[eax + edx] ;move the first byte that eax holds to ebx
 	add ebx,1h ;add 1h to ebx, that way if our letter was a it turns into b
 	mov [eax+edx], bl ; move the new letter and overwrite the old letter. (note that here we use the same memory location so e.g. if we write "test" it will overwrite "uftu" on itself one by one)
 	inc edx ; edx=edx+1 so we move to the next char in the string
